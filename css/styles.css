@@ -5,103 +5,78 @@
 #intro {
 	font-family: Tahoma;
 	color: green;
-	font-size: 30px;
+	font-size: 26.25px;
 	text-align: center;
 	text-transform: capitalize;
 }
 
-#title1 {
-	position: top right;
+.content {
+	position: inherit;
 	border: 1px solid black;
-	padding: 3px;
-	margin: 10px;
-	background-color: green;
-	width: 50%;
-	height: 60%;
-	margin-right: 21px;
-	margin-left: auto;
+	padding: 40px;
+	background-color: grey;
+	width: 90%;
+	height: 200px;
 	font-family: Tahoma;
-	font-size: 20px;
+	font-size: 15px;
+	text-align: justify;
+	color: black;
+}
+
+
+ #title1 {
+	position: relative;
+	width: 70px
+	height: 70px;
+	border: 1px solid black;
+	padding: 7px;
+	margin: 15px;
+	float: right;
+	right: 26px;
+	background-color: green;
+	font-family: Tahoma;
+	font-size: 18.75px;
 	text-align: center;
 	color: black;
-	float: right;
 }
 
 #title2 {
-	position: top right;
+	position: relative;
+	width: 70px
+	height: 70px;
 	border: 1px solid black;
-	padding: 3px;
-	margin: 10px;
+	padding: 7px;
+	margin: 15px;
+	float: right;
+	right: 26px;
 	background-color: yellow;
-	width: 50%;
-	height: 60%;
-	margin-right: 21px;
-	margin-left: auto;
 	font-family: Tahoma;
-	font-size: 20px;
+	font-size: 18.75px;
 	text-align: center;
 	color: black;
-	float: right;
 }
 
 #title3 {
-	position: top right;
+	position: relative;
+	width: 70px
+	height: 70px;
 	border: 1px solid black;
-	padding: 3px;
-	margin: 10px;
+	padding: 7px;
+	margin: 15px;
+	float: right;
+	right: 26px;
 	background-color: orange;
-	width: 50%;
-	height: 60%;
-	margin-right: 21px;
-	margin-left: auto;
 	font-family: Tahoma;
-	font-size: 20px;
+	font-size: 18.75px;
 	text-align: center;
 	color: black;
-	float: right;
 }
 
-#p1 {
-	border: 1px solid black;
-	padding: 10px;
-	margin: 10px;
-	background-color: grey;
-	width: 90%;
-	height: 150px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Tahoma;
-	color: black;
-}
 
-#p2 {
-	border: 1px solid black;
-	padding: 10px;
-	margin: 10px;
-	background-color: grey;
-	width: 90%;
-	height: 150px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Tahoma;
-	color: black;
-}
-
-#p3 {
-	border: 1px solid black;
-	padding: 10px;
-	margin:10px;
-	background-color: grey;
-	width: 90%;
-	height: 150px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Tahoma;
-	color: black;
-}
 /* Simple Responsive Framework */
-.row {
+.outer {
 	width: 100%;
+	float: none;
 
 }
 
@@ -109,7 +84,6 @@
 @media (min-width: 992px) {
 
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
- 	border: 1px dark;
  	float: left;
  }
 
@@ -152,10 +126,10 @@
  }
 
 
+
 /* Medium devices only */
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
- 	border: 1px dark;
  	float: left;
  }
 
@@ -197,11 +171,11 @@
  }
  }
 
+
 /* Small devices only */
 @media (max-width: 767px) {
 
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
- 	border: 1px dark;
  	float: left;
  }
 
